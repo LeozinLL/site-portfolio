@@ -18,12 +18,13 @@ nav
 header
 {
     text-align: center;
+    padding-top: 20px;
 }
 
 #img-topo
 {
     background-color: #03bfc5;
-    height: 200px;
+    height: 290px;
     border-radius: 1em;
 }
 
@@ -54,6 +55,7 @@ h2
 {
     text-align: justify;
     font-family: sans-serif;
+    padding-top: 35px;
 }
 
 #leonardo
@@ -79,7 +81,7 @@ h4
 
 h5
 {
-    font-family: sans-serif;
+    font-size: large;
 }
 
 footer
