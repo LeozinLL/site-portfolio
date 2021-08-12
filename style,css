@@ -1,0 +1,117 @@
+body
+{   background-color: #F0F8FF;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: justify;
+    padding: 1%;
+}
+
+nav
+{
+    text-align: center;
+}
+
+#contato
+{
+    text-align: right;
+}
+
+header
+{
+    text-align: center;
+}
+
+#img-topo
+{
+    background-color: #00008B;
+    height: 200px;
+}
+
+h1
+{
+    text-align: center;
+    color: #00008B;
+    font-size: 22px;
+}
+
+h2
+{
+    font-size: 20px;
+}
+
+#grade
+{
+    display: grid;
+    grid-template-areas: "imagem texto";
+}
+
+.imagem
+{
+    text-align: center;
+}
+
+.texto
+{
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+#leonardo
+{
+    border-radius: 50%;
+    max-width:200px;
+    max-height:150px;
+}
+
+#developer
+{
+    background-color: #00008B;
+    text-align: center;
+    padding: 0.1%;
+}
+
+h4
+{
+    color: #fff;
+    font-size: 22px;
+}
+
+#logo-footer
+{
+    border-radius: 10%;
+}
+
+footer
+{
+    background-color: #00008B;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+}
+
+hr
+{
+    border-color: #00008B;
+    width: 70%;
+}
+
+hr.branco
+{
+    border-color: #fff;
+    width: 70%;
+}
+
+a:link, a:visited, a:active
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgb(255, 0, 0);
+}
+
+.publicidade
+{
+    text-align: center;
+}
