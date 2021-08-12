@@ -1,9 +1,8 @@
 body
 {   background-color: #F0F8FF;
-    font-family: Arial;
+    font-family: sans-serif;
     font-size: 16px;
     text-align: justify;
-    padding: 1%;
 }
 
 nav
@@ -23,14 +22,15 @@ header
 
 #img-topo
 {
-    background-color: #00008B;
+    background-color: #03bfc5;
     height: 200px;
+    border-radius: 1em;
 }
 
 h1
 {
     text-align: center;
-    color: #00008B;
+    color: #03bfc5;
     font-size: 22px;
 }
 
@@ -65,39 +65,41 @@ h2
 
 #developer
 {
-    background-color: #00008B;
+    background-color: #03bfc5;
     text-align: center;
     padding: 0.1%;
+    border-radius: 1em;
 }
 
 h4
 {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 22px;
 }
 
-#logo-footer
+h5
 {
-    border-radius: 10%;
+    font-family: sans-serif;
 }
 
 footer
 {
-    background-color: #00008B;
+    background-color: #03bfc5;
     text-align: center;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 1%;
+    border-radius: 1em;
 }
 
 hr
 {
-    border-color: #00008B;
+    border-color: #03bfc5;
     width: 70%;
 }
 
-hr.branco
+hr.preto
 {
-    border-color: #fff;
+    border-color: rgb(0, 0, 0);
     width: 70%;
 }
 
@@ -108,5 +110,5 @@ a:link, a:visited, a:active
 
 a:hover
 {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
 }
