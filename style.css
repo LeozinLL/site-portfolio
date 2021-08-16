@@ -1,111 +1,91 @@
-body
-{   background-color: #F0F8FF;
-    font-family: sans-serif;
-    font-size: 16px;
-    text-align: justify;
+body{
+     background-color: #F0F8FF;
+     font-family: sans-serif;
+     font-size: 16px;
+     text-align: justify;
 }
 
-nav
-{
+nav{
     text-align: center;
 }
 
-header
-{
+header{
     text-align: center;
     padding-top: 20px;
 }
 
-#img-topo
-{
+#img-topo{
     background-color: #03bfc5;
     height: 290px;
-    border-radius: 1em;
+    border-radius: 0.5em;
 }
 
-h1
-{
+h1{
     text-align: center;
     color: #03bfc5;
     font-size: 22px;
 }
 
-h2
-{
+h2{
     font-size: 20px;
 }
 
-#grade
-{
+h4{
+    font-size: 22px;
+}
+
+h5{
+    font-size: large;
+}
+
+#grade{
     display: grid;
     grid-template-areas: "imagem texto";
 }
 
-.imagem
-{
+.imagem{
     text-align: center;
 }
 
-.texto
-{
-    text-align: justify;
-    font-family: sans-serif;
+.texto{
+    text-align: auto;
     padding-top: 35px;
 }
 
-#leonardo
-{
+#leonardo{
     border-radius: 50%;
-    max-width:200px;
-    max-height:150px;
+    max-height: 150px;
 }
 
-#developer
-{
+#developer{
     background-color: #03bfc5;
     text-align: center;
     padding: 0.1%;
-    border-radius: 1em;
+    border-radius: 0.5em;
 }
 
-h4
-{
-    color: rgb(0, 0, 0);
-    font-size: 22px;
-}
-
-h5
-{
-    font-size: large;
-}
-
-footer
-{
+footer{
     background-color: #03bfc5;
     text-align: center;
     color: rgb(0, 0, 0);
     padding: 1%;
-    border-radius: 1em;
+    border-radius: 0.5em;
 }
 
-hr
-{
+hr{
     border-color: #03bfc5;
     width: 70%;
 }
 
-hr.preto
-{
+hr.preto{
     border-color: rgb(0, 0, 0);
     width: 70%;
 }
 
-a:link, a:visited, a:active
-{
+a:link, a:visited, a:active{
     text-decoration: none;
 }
 
-a:hover
-{
+a:hover{
     color: rgb(0, 0, 0);
 }
