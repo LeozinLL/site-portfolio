@@ -1,12 +1,14 @@
 body{
-     background-color: #F0F8FF;
+     background-color: 	#161616;
      font-family: sans-serif;
      font-size: 16px;
      text-align: justify;
+     color: #F0F8FF;
 }
 
 nav{
     text-align: center;
+    color: #F0F8FF;
 }
 
 header{
@@ -16,18 +18,20 @@ header{
 
 #img-topo{
     background-color: #03bfc5;
-    height: 290px;
+    height: 330px;
     border-radius: 0.5em;
+
 }
 
 h1{
     text-align: center;
-    color: #03bfc5;
+    color: #F0F8FF;
     font-size: 22px;
 }
 
 h2{
     font-size: 20px;
+    color: #F0F8FF;
 }
 
 h4{
@@ -36,11 +40,13 @@ h4{
 
 h5{
     font-size: large;
+    color: #F0F8FF;
 }
 
 #grade{
     display: grid;
     grid-template-areas: "imagem texto";
+    color: #F0F8FF;
 }
 
 .imagem{
@@ -67,7 +73,7 @@ h5{
 footer{
     background-color: #03bfc5;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #F0F8FF;
     padding: 1%;
     border-radius: 0.5em;
 }
@@ -84,8 +90,9 @@ hr.preto{
 
 a:link, a:visited, a:active{
     text-decoration: none;
+    color: #F0F8FF;
 }
 
 a:hover{
-    color: rgb(0, 0, 0);
+    color: #03bfc5;
 }
