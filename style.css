@@ -1,43 +1,49 @@
 body{
-    background-image: linear-gradient(to right, #8d00b8 30%, rgb(60, 60, 260));
-    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #8d00b8 20%, rgb(60, 60, 260));
+    font-family: 'Times New Roman', Times;
      font-size: 20px;
      text-align: justify;
 }
 
 nav{
     text-align: center;
-    color: #000000;
+    color: #F0F8FF
 }
 
 header{
     text-align: center;
     padding-top: 20px;
+    color: 	#F0F8FF;
 }
 
 #img-topo{
-    background-image: linear-gradient(to right, #8d00b8 30%, rgb(60, 60, 260));
     height: 330px;
+}
+
+h1{
+        text-shadow:#555555 0.2vh 0.2vh 1vh;
 }
 
 h2{
     font-size: 30px;
-    color: #000000;
+    color:#F0F8FF
 }
 
 h4{
     font-size: 26px;
+    color: #F0F8FF;
 }
 
 h5{
     font-size: 25px;
-    color: #000000;
+    color: #F0F8FF;
 }
 
 #grade{
     display: grid;
     grid-template-areas: "imagem texto";
-    color: #000000;
+    color: #F0F8FF;
+    text-shadow:#555555 0.2vh 0.2vh 1vh;
 }
 
 .imagem{
@@ -46,8 +52,9 @@ h5{
 
 .texto{
     text-align: auto;
-    padding-top: 60px;
+    padding-top: 40px;
     font-size: 22px;
+    text-shadow:#555555 0.2vh 0.2vh 1vh;
 }
 
 #leonardo{
@@ -57,23 +64,18 @@ h5{
 }
 
 #developer{
-    background-image: linear-gradient(to right, #8d00b8 30%, rgb(60, 60, 260));
     text-align: center;
     padding: 0.1%;
     border-radius: 0.5em;
+    text-shadow:#555555 0.2vh 0.2vh 1vh;
 }
 
 footer{
-    background-image: linear-gradient(to right, #8d00b8 30%, rgb(60, 60, 260));
     text-align: center;
-    color: #000000;
+    color: #F0F8FF;
     padding: 1%;
     border-radius: 0.5em;
-}
-
-hr{
-    border-color: #03bfc5;
-    width: 70%;
+    text-shadow:#555555 0.2vh 0.2vh 1vh;
 }
 
 hr.preto{
@@ -82,10 +84,13 @@ hr.preto{
 }
 
 a:link, a:visited, a:active{
+    font-size: 24px;
     text-decoration: none;
-    color: #000000;
+    color: 	#F0F8FF;
+    text-shadow:#555555 0.2vh 0.2vh 1vh;
 }
 
 a:hover{
-    color: #03bfc5;
+    color: #00d9ff;
+    transition: 1.5s;
 }
