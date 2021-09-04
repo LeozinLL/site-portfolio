@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to right, #8d00b8, rgb(60, 60, 260));
+    background-image: linear-gradient(to right, #8d00b8 30%, rgb(60, 60, 260));
     font-family: 'Times New Roman', Times, serif;
      font-size: 20px;
      text-align: justify;
@@ -16,7 +16,7 @@ header{
 }
 
 #img-topo{
-    background-image: linear-gradient(to right, #8d00b8, rgb(60, 60, 260));
+    background-image: linear-gradient(to right, #8d00b8 30%, rgb(60, 60, 260));
     height: 330px;
 }
 
@@ -57,14 +57,14 @@ h5{
 }
 
 #developer{
-    background-image: linear-gradient(to right, #8d00b8, rgb(60, 60, 260));
+    background-image: linear-gradient(to right, #8d00b8 30%, rgb(60, 60, 260));
     text-align: center;
     padding: 0.1%;
     border-radius: 0.5em;
 }
 
 footer{
-    background-image: linear-gradient(to right, #8d00b8, rgb(60, 60, 260));
+    background-image: linear-gradient(to right, #8d00b8 30%, rgb(60, 60, 260));
     text-align: center;
     color: #000000;
     padding: 1%;
