@@ -1,14 +1,13 @@
 body{
-     background-color: 	#161616;
-     font-family: sans-serif;
-     font-size: 16px;
+    background-image: linear-gradient(to right, #8d00b8, rgb(60, 60, 260));
+    font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
      text-align: justify;
-     color: #F0F8FF;
 }
 
 nav{
     text-align: center;
-    color: #F0F8FF;
+    color: #000000;
 }
 
 header{
@@ -17,36 +16,28 @@ header{
 }
 
 #img-topo{
-    background-color: #03bfc5;
+    background-image: linear-gradient(to right, #8d00b8, rgb(60, 60, 260));
     height: 330px;
-    border-radius: 0.5em;
-
-}
-
-h1{
-    text-align: center;
-    color: #F0F8FF;
-    font-size: 22px;
 }
 
 h2{
-    font-size: 20px;
-    color: #F0F8FF;
+    font-size: 30px;
+    color: #000000;
 }
 
 h4{
-    font-size: 22px;
+    font-size: 26px;
 }
 
 h5{
-    font-size: large;
-    color: #F0F8FF;
+    font-size: 25px;
+    color: #000000;
 }
 
 #grade{
     display: grid;
     grid-template-areas: "imagem texto";
-    color: #F0F8FF;
+    color: #000000;
 }
 
 .imagem{
@@ -55,25 +46,27 @@ h5{
 
 .texto{
     text-align: auto;
-    padding-top: 35px;
+    padding-top: 60px;
+    font-size: 22px;
 }
 
 #leonardo{
+    text-align:justify;
     border-radius: 50%;
-    max-height: 150px;
+    max-height: 200px;
 }
 
 #developer{
-    background-color: #03bfc5;
+    background-image: linear-gradient(to right, #8d00b8, rgb(60, 60, 260));
     text-align: center;
     padding: 0.1%;
     border-radius: 0.5em;
 }
 
 footer{
-    background-color: #03bfc5;
+    background-image: linear-gradient(to right, #8d00b8, rgb(60, 60, 260));
     text-align: center;
-    color: #F0F8FF;
+    color: #000000;
     padding: 1%;
     border-radius: 0.5em;
 }
@@ -90,7 +83,7 @@ hr.preto{
 
 a:link, a:visited, a:active{
     text-decoration: none;
-    color: #F0F8FF;
+    color: #000000;
 }
 
 a:hover{
