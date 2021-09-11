@@ -5,4 +5,4 @@
                 </figure>
             </div>
             <br>
-Site 100% desenvolvido por Leonardo Lima.  :)
+Site 100% desenvolvido por Leonardo Lima.   :)
